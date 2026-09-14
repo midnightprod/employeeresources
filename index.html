@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Employee Resources</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <h1>Employee Resources</h1>
+    <p>Company documents, forms, and guides in one place. Search by name or filter by category.</p>
+    <div class="search-row">
+      <input type="search" id="search" placeholder="Search documents…" aria-label="Search documents" />
+      <div class="tabs" id="tabs" role="tablist" aria-label="Filter by category"></div>
+    </div>
+  </header>
+
+  <main>
+    <div class="doc-list" id="doc-list" aria-live="polite"></div>
+  </main>
+
+  <footer class="site-footer">
+    <p>To add a document, drop the file into <code>/docs</code> and add an entry to <code>documents.json</code>. See the repo README for details.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

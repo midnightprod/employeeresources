@@ -1,0 +1,30 @@
+[
+  {
+    "title": "Employee Handbook",
+    "category": "Policies",
+    "description": "Company policies, code of conduct, and workplace guidelines.",
+    "file": "docs/employee-handbook.pdf",
+    "updated": "2026-01-15"
+  },
+  {
+    "title": "Health Benefits Overview",
+    "category": "Benefits",
+    "description": "Summary of medical, dental, and vision plan options.",
+    "file": "docs/health-benefits-overview.pdf",
+    "updated": "2026-02-01"
+  },
+  {
+    "title": "VPN Setup Guide",
+    "category": "IT",
+    "description": "Step-by-step instructions for connecting to the company VPN.",
+    "file": "docs/vpn-setup-guide.pdf",
+    "updated": "2026-03-10"
+  },
+  {
+    "title": "Expense Reimbursement Form",
+    "category": "HR",
+    "description": "Form and instructions for submitting business expense claims.",
+    "file": "docs/expense-reimbursement-form.pdf",
+    "updated": "2026-01-22"
+  }
+]
